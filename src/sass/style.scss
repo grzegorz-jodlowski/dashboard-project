@@ -7,8 +7,10 @@
 // /* Components */
 // @import "components/form_field";
 
-// /* Sections */
-// @import "section/registration_form";
+/* Sections */
+@import "sections/sidebar";
+@import "sections/top";
+@import "sections/main-content";
 
 // /* Pages / Views */
 // @import "pages/registration";
