@@ -1,13 +1,10 @@
 .sidebar {
   background: $sidebar-color;
+}
 
-  &__top {
-    height: 60px;
-    display: flex;
-    flex-flow: row, nowrap;
-    justify-content: flex-start;
-    align-items: center;
-  }
+.top {
+  height: 60px;
+  @include flex(row, nowrap, center, flex-start);
 
   &__logo {
     flex-grow: 2;
@@ -19,5 +16,33 @@
     font-size: $header-font-size * 1.5;
     color: #818181;
     text-align: center;
+  }
+}
+
+.menu {
+  &__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__item {
+    height: 40px;
+    margin-left: 25px;
+    font-size: $header-font-size;
+  }
+
+  &__link {
+    line-height: 40px;
+
+    &:hover {
+      background: $dark-grey;
+      color: $grey-light;
+    }
+  }
+
+  &__title {
+    margin-left: 20px;
+    font-size: $paragraph-font-size;
   }
 }
