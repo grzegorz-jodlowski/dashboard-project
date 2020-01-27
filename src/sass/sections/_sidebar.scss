@@ -20,6 +20,8 @@
 }
 
 .menu {
+  min-height: calc(100vh - 60px);
+
   &__list {
     list-style-type: none;
     margin: 0;
@@ -28,21 +30,79 @@
 
   &__item {
     height: 40px;
-    margin-left: 25px;
+    padding-left: 25px;
     font-size: $header-font-size;
+
+    &:hover {
+      background: $black-light;
+      color: $gray-light;
+
+      &:before {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        width: 5px;
+        height: 40px;
+        background: $orange;
+      }
+    }
   }
 
   &__link {
+    position: relative;
     line-height: 40px;
-
-    &:hover {
-      background: $dark-grey;
-      color: $grey-light;
-    }
+    text-decoration: none;
+    color: #818181;
   }
 
   &__title {
     margin-left: 20px;
+    font-size: $paragraph-font-size;
+  }
+
+  &__horizontal-bar {
+    margin: 25px 1px;
+    border: 0.3px solid $black-light;
+  }
+}
+
+.manager {
+  &__header {
+    color: #808080;
+    font-size: $paragraph-font-size;
+    font-weight: $font-semibold;
+    letter-spacing: -0.8px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+  }
+
+  &__avatar {
+    @include flex(row, nowrap, center, flex-start);
+    padding: 10px 0 10px 25px;
+    position: relative;
+
+    &:hover {
+      background: $black-light;
+    }
+  }
+
+  &__photo {
+    &:before {
+      position: absolute;
+      content: "";
+      top: 10px;
+      left: 55px;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: $green;
+    }
+  }
+
+  &__name {
+    color: $blue;
+    margin-left: 15px;
     font-size: $paragraph-font-size;
   }
 }
