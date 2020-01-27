@@ -1,6 +1,15 @@
-.dashboard-panel {
+body {
   font-size: $paragraph-font-size;
   font-family: $main-font;
+}
+
+a {
+  text-decoration: none;
+  color: #818181;
+
+  &:hover {
+    color: $orange;
+  }
 }
 
 .wrapper {

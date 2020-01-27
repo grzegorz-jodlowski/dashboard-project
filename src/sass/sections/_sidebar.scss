@@ -3,5 +3,21 @@
 
   &__top {
     height: 60px;
+    display: flex;
+    flex-flow: row, nowrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  &__logo {
+    flex-grow: 2;
+    text-align: center;
+  }
+
+  &__hamburger {
+    flex-grow: 1;
+    font-size: $header-font-size * 1.5;
+    color: #818181;
+    text-align: center;
   }
 }
