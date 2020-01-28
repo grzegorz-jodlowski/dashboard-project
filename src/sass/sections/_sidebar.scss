@@ -1,5 +1,6 @@
 .sidebar {
   background: $sidebar-color;
+  z-index: 5;
 
   &__horizontal-bar {
     margin: 25px 1px;

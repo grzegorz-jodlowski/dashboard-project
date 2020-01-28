@@ -1,0 +1,22 @@
+.topbar {
+  position: fixed;
+  top: 0;
+  height: 60px;
+  width: 100%;
+  background: $white;
+  border-bottom: 1px solid $gray;
+
+  &__list {
+    list-style-type: none;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    @include flex(row, nowrap, center, flex-end);
+  }
+
+  &__item {
+    display: inline-block;
+    height: 100%;
+  }
+}
