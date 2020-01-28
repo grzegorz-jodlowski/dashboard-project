@@ -1,8 +1,13 @@
 .sidebar {
   background: $sidebar-color;
+
+  &__horizontal-bar {
+    margin: 25px 1px;
+    border: 0.3px solid $black-light;
+  }
 }
 
-.top {
+.sidebar-top {
   height: 60px;
   @include flex(row, nowrap, center, flex-start);
 
@@ -19,7 +24,7 @@
   }
 }
 
-.menu {
+.sidebar-menu {
   min-height: calc(100vh - 60px);
 
   &__list {
@@ -63,12 +68,7 @@
     font-size: $paragraph-font-size;
   }
 
-  &__horizontal-bar {
-    margin: 25px 1px;
-    border: 0.3px solid $black-light;
-  }
-
-  .manager {
+  .sidebar-manager {
     &__header {
       color: #808080;
       font-size: $paragraph-font-size;
