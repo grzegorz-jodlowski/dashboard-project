@@ -25,3 +25,18 @@
     }
   }
 }
+
+.button-refresh {
+  background: $orange;
+  border: none;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  color: $white;
+  font-size: $header-font-size;
+  border-radius: 5px;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
