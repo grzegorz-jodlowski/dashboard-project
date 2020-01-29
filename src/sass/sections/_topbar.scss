@@ -18,5 +18,17 @@
   &__item {
     display: inline-block;
     height: 100%;
+    border-left: 1px solid $gray;
+  }
+
+  &__text {
+    padding: 15px;
+    font-weight: $font-bold;
+
+    &--small {
+      font-weight: $font-light;
+      font-size: 13px;
+      color: $blue;
+    }
   }
 }
