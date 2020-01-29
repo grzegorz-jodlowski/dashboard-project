@@ -11,4 +11,17 @@
   &:hover {
     background: $gray-light;
   }
+
+  &--dot {
+    &:before {
+      position: absolute;
+      content: "";
+      top: 18px;
+      left: 28px;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: $orange;
+    }
+  }
 }
