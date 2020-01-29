@@ -4,6 +4,7 @@ $black: #000000;
 $black-light: #333333;
 $gray-strong: #979797;
 $gray-dark: #bababa;
+$gray-main-text: #9c9c9c;
 $gray: #e3e3e3;
 $gray-light: #f5f5f2;
 $orange-dark: #f58220;
@@ -30,3 +31,7 @@ $font-bold: 700;
 
 /* Fonts */
 $main-font: "Roboto", sans-serif;
+
+/* Features */
+
+$border: 1px solid $gray;

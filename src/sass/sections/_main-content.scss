@@ -2,3 +2,19 @@
   background-color: $gray-light;
   margin-top: 60px;
 }
+
+.section {
+  margin: 15px;
+  background-color: $white;
+  color: $gray-main-text;
+  font-size: $header-font-size;
+  box-shadow: 0 0 1em $gray;
+
+  &__header {
+    font-size: $header-font-size;
+    padding: 15px;
+    border-bottom: $border;
+    text-transform: uppercase;
+    font-weight: $font-semibold;
+  }
+}
