@@ -24,6 +24,12 @@
     font-size: $header-font-size;
     @include flex(row, wrap, center, center);
   }
+
+  &__chart {
+    max-width: 660px;
+    margin: 20px auto;
+    text-align: center;
+  }
 }
 
 .dates {
@@ -72,5 +78,15 @@
     font-weight: $font-normal;
     color: $black-light;
     float: right;
+  }
+}
+
+.chart {
+  &__header {
+    padding-top: 30px;
+    text-align: left;
+    font-size: $header-font-size;
+    font-weight: $font-semibold;
+    line-height: 30px;
   }
 }
