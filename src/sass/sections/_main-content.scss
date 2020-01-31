@@ -18,6 +18,12 @@
     border-bottom: $border;
     @include flex(row, nowrap, center, center);
   }
+
+  &__statistics {
+    margin: 30px;
+    font-size: $header-font-size;
+    @include flex(row, wrap, center, space-around);
+  }
 }
 
 .dates {
@@ -28,6 +34,12 @@
   margin: 15px;
   font-size: $paragraph-font-size;
 
+  &:hover {
+    transition: $transition;
+    color: $black;
+    border: 1px solid $black;
+  }
+
   &__date-from {
     padding-right: 50px;
     border-right: $border;
@@ -36,5 +48,23 @@
   &__date-to {
     padding-right: 50px;
     padding-left: 10px;
+  }
+}
+
+.statistics {
+  &__item {
+    border-bottom: $border;
+    font-weight: $font-semibold;
+    text-align: left;
+    line-height: 30px;
+    width: 300px;
+    margin: 30px;
+    flex: 1 0 40%;
+  }
+
+  &__value {
+    font-weight: $font-normal;
+    color: $black-light;
+    float: right;
   }
 }
