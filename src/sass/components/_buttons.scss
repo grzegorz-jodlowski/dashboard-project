@@ -40,3 +40,18 @@
     opacity: 0.8;
   }
 }
+
+.button-add {
+  background: $orange;
+  border: none;
+  width: 120px;
+  height: 40px;
+  cursor: pointer;
+  color: $white;
+  font-size: 18px;
+  border-radius: 5px;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}

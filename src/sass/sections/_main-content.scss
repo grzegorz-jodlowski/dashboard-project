@@ -13,10 +13,14 @@
     font-weight: $font-semibold;
   }
 
-  &__dates {
+  &__box {
     padding: 15px;
     border-bottom: $border;
     @include flex(row, nowrap, center, center);
+
+    &--without-border {
+      border: none;
+    }
   }
 
   &__statistics {
