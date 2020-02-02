@@ -6,7 +6,6 @@
   &__row {
     line-height: 60px;
     border-top: $border;
-    border-bottom: $border;
     @include flex(row, nowrap, stretch, flex-start);
 
     &:hover {
@@ -15,6 +14,10 @@
       i {
         display: inline;
       }
+    }
+
+    &--last {
+      border-bottom: $border;
     }
   }
 

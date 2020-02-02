@@ -5,6 +5,7 @@
   width: 190px;
   background: $sidebar-color;
   z-index: 5;
+  transition: $transition;
 
   &__horizontal-bar {
     margin: 25px 1px;
@@ -110,6 +111,30 @@
       color: $blue;
       margin-left: 15px;
       font-size: $paragraph-font-size;
+    }
+  }
+}
+
+.sidebar__narrow {
+  transition: $transition;
+  width: 60px;
+
+  .sidebar-top__logo,
+  .sidebar-menu__title,
+  .sidebar-manager__header,
+  .sidebar-manager__name {
+    display: none;
+  }
+
+  .sidebar-manager {
+    &__avatar {
+      padding: 10px 0 10px 10px;
+    }
+
+    &__photo {
+      &:before {
+        left: 40px;
+      }
     }
   }
 }
