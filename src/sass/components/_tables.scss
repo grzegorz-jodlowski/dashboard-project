@@ -1,12 +1,13 @@
 .links-table {
   margin: 20px auto;
-  min-width: 660px;
+  width: 60%;
   border-collapse: collapse;
 
   &__row {
     line-height: 60px;
     border-top: $border;
     border-bottom: $border;
+    @include flex(row, nowrap, stretch, flex-start);
 
     &:hover {
       background-color: $gray-light;
@@ -19,22 +20,30 @@
 
   &__link-name {
     font-weight: $font-semibold;
+    flex-basis: 40%;
+    text-align: left;
+    padding-left: 20px;
   }
 
-  &__link-address a {
-    color: $blue;
+  &__link-address {
+    flex-basis: 40%;
 
-    &:hover {
-      color: $orange;
+    a {
+      color: $blue;
+
+      &:hover {
+        color: $orange;
+      }
     }
   }
 
   &__icons {
-    width: 80px;
+    flex-basis: 20%;
 
     i {
-      display: none;
       margin: 10px;
+      display: none;
+      cursor: pointer;
 
       &:hover {
         color: $orange;
