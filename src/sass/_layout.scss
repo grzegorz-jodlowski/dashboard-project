@@ -1,6 +1,8 @@
 body {
   font-size: $paragraph-font-size;
   font-family: $main-font;
+  background-color: $gray-light;
+  margin: 0 auto;
 }
 
 a {
@@ -13,26 +15,11 @@ a {
 }
 
 .main-content {
-  background-color: $gray-light;
-  margin-top: 60px;
+  transition: $transition;
+  margin: 75px 15px 15px 205px;
 }
 
-.wrapper {
-  display: grid;
-  grid-template-columns: 190px repeat(10, [col-start] 1fr);
-  // grid-template-rows: minmax(60px, auto);
-}
-
-.top {
-  grid-column: col-start 1 / span 10;
-  // grid-row: 1;
-}
-
-.sidebar {
-  grid-column: 1 / span 1;
-  // grid-row: 1 / span 2;
-}
-
-.main-content {
-  grid-column: col-start 1 / span 10;
+.main-content--wide {
+  transition: $transition;
+  margin: 75px 15px 15px 75px;
 }

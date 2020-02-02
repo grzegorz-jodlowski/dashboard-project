@@ -13,180 +13,171 @@
 </head>
 
 <body>
-  <div class="wrapper">
-    <header class="topbar">
-      <ul class="topbar__list">
-        <li class="topbar__item">
-          <button class="button-topbar">
-            <i class="icon-wallet"></i><span class="topbar__text">$1,500.00</span><i class="icon-arrow-down"></i>
-          </button>
-        </li>
-        <li class="topbar__item">
-          <button class="button-topbar button-topbar--dot">
-            <i class="icon-notification"></i>
-          </button>
-        </li>
-        <li class="topbar__item">
-          <button class="button-topbar">
-            <i class="icon-profile"></i><span class="topbar__text topbar__text--small">Leonardo Dicaprio</span>
-          </button>
-        </li>
-        <li class="topbar__item">
-          <button class="button-topbar">
-            <i class="icon-quit"></i>
-          </button>
-        </li>
+  <header class="topbar">
+    <ul class="topbar__list">
+      <li class="topbar__item">
+        <button class="button-topbar">
+          <i class="icon-wallet"></i><span class="topbar__text">$1,500.00</span><i class="icon-arrow-down"></i>
+        </button>
+      </li>
+      <li class="topbar__item">
+        <button class="button-topbar button-topbar--dot">
+          <i class="icon-notification"></i>
+        </button>
+      </li>
+      <li class="topbar__item">
+        <button class="button-topbar">
+          <i class="icon-profile"></i><span class="topbar__text topbar__text--small">Leonardo Dicaprio</span>
+        </button>
+      </li>
+      <li class="topbar__item">
+        <button class="button-topbar">
+          <i class="icon-quit"></i>
+        </button>
+      </li>
+    </ul>
+  </header>
+
+  <nav class="sidebar">
+    <div class="sidebar-top">
+      <div class="sidebar-top__logo">
+        <a href="#"><img src="images/logo.png" alt="logo Just do it"></a>
+      </div>
+      <div class="sidebar-top__hamburger">
+        <a href="#">
+          &#9776;
+        </a>
+      </div>
+    </div>
+
+    <div class="sidebar-menu">
+      <ul class="sidebar-menu__list">
+        <li class="sidebar-menu__item"><a href="#" class="sidebar-menu__link"><i class="icon-general"></i><span
+              class="sidebar-menu__title">General</span></a></li>
+        <li class="sidebar-menu__item"><a href="#" class="sidebar-menu__link"><i class="icon-details"></i><span
+              class="sidebar-menu__title">Details</span></a></li>
+        <li class="sidebar-menu__item"><a href="#" class="sidebar-menu__link"><i class="icon-links"></i><span
+              class="sidebar-menu__title">Links</span></a></li>
+        <li class="sidebar-menu__item"><a href="#" class="sidebar-menu__link"><i class="icon-banners"></i><span
+              class="sidebar-menu__title">Banners</span></a></li>
+        <li class="sidebar-menu__item"><a href="#" class="sidebar-menu__link"><i class="icon-personaldata"></i><span
+              class="sidebar-menu__title">Personal data</span></a></li>
+        <li class="sidebar-menu__item"><a href="#" class="sidebar-menu__link"><i class="icon-payout"></i><span
+              class="sidebar-menu__title">Payout</span></a></li>
+        <li class="sidebar-menu__item"><a href="#" class="sidebar-menu__link"><i class="icon-postback"></i><span
+              class="sidebar-menu__title">Postback</span></a></li>
       </ul>
-    </header>
 
-    <nav class="sidebar">
-      <div class="sidebar-top">
-        <div class="sidebar-top__logo">
-          <a href="#"><img src="images/logo.png" alt="logo Just do it"></a>
-        </div>
-        <div class="sidebar-top__hamburger">
-          <a href="#">
-            &#9776;
-          </a>
-        </div>
-      </div>
+      <hr class="sidebar__horizontal-bar">
 
-      <div class="sidebar-menu">
-        <ul class="sidebar-menu__list">
-          <li class="sidebar-menu__item"><a href="#" class="sidebar-menu__link"><i class="icon-general"></i><span
-                class="sidebar-menu__title">General</span></a></li>
-          <li class="sidebar-menu__item"><a href="#" class="sidebar-menu__link"><i class="icon-details"></i><span
-                class="sidebar-menu__title">Details</span></a></li>
-          <li class="sidebar-menu__item"><a href="#" class="sidebar-menu__link"><i class="icon-links"></i><span
-                class="sidebar-menu__title">Links</span></a></li>
-          <li class="sidebar-menu__item"><a href="#" class="sidebar-menu__link"><i class="icon-banners"></i><span
-                class="sidebar-menu__title">Banners</span></a></li>
-          <li class="sidebar-menu__item"><a href="#" class="sidebar-menu__link"><i class="icon-personaldata"></i><span
-                class="sidebar-menu__title">Personal data</span></a></li>
-          <li class="sidebar-menu__item"><a href="#" class="sidebar-menu__link"><i class="icon-payout"></i><span
-                class="sidebar-menu__title">Payout</span></a></li>
-          <li class="sidebar-menu__item"><a href="#" class="sidebar-menu__link"><i class="icon-postback"></i><span
-                class="sidebar-menu__title">Postback</span></a></li>
-        </ul>
-
-        <hr class="sidebar__horizontal-bar">
-
-        <div class="sidebar-manager">
-          <h2 class="sidebar-manager__header">YOUR MANAGER</h2>
-          <a href="#">
-            <div class="sidebar-manager__avatar">
-              <div class="sidebar-manager__photo">
-                <img src="images/avatar.png" alt="avatar of your manager Mikhael E.">
-              </div>
-              <p class="sidebar-manager__name">Mikhael E.</p>
+      <div class="sidebar-manager">
+        <h2 class="sidebar-manager__header">YOUR MANAGER</h2>
+        <a href="#">
+          <div class="sidebar-manager__avatar">
+            <div class="sidebar-manager__photo">
+              <img src="images/avatar.png" alt="avatar of your manager Mikhael E.">
             </div>
-          </a>
-        </div>
-      </div>
-    </nav>
-
-    <main class="main-content">
-      <section class="section general">
-        <h2 class="section__header">General statistics</h2>
-        <div class="section__box">
-          <div class="dates">
-            <div class="dates__date-from">16.05.2016</div>
-            <div class="dates__date-to">16.05.2016</div>
-            <div class="dates__date-icon"><i class="icon-calendar"></i></div>
+            <p class="sidebar-manager__name">Mikhael E.</p>
           </div>
-          <button class="button-refresh"><i class="icon-refresh"></i></button>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="main-content">
+    <section class="section general">
+      <h2 class="section__header">General statistics</h2>
+      <div class="section__box">
+        <div class="dates">
+          <div class="dates__date-from">16.05.2016</div>
+          <div class="dates__date-to">16.05.2016</div>
+          <div class="dates__date-icon"><i class="icon-calendar"></i></div>
         </div>
+        <button class="button-refresh"><i class="icon-refresh"></i></button>
+      </div>
 
-        <div class="section__statistics">
-          <p class="statistics__item">Visit Signups<span class="statistics__value">124</span></p>
-          <p class="statistics__item">Net deposit<span class="statistics__value">564</span></p>
-          <p class="statistics__item">FTD<span class="statistics__value">445</span></p>
-          <p class="statistics__item">Turn over<span class="statistics__value">432</span></p>
-        </div>
+      <div class="section__statistics">
+        <p class="statistics__item">Visit Signups<span class="statistics__value">124</span></p>
+        <p class="statistics__item">Net deposit<span class="statistics__value">564</span></p>
+        <p class="statistics__item">FTD<span class="statistics__value">445</span></p>
+        <p class="statistics__item">Turn over<span class="statistics__value">432</span></p>
+      </div>
 
-        <div class="section__chart">
-          <h2 class="chart__header">Earnings chart</h2>
-          <img src="images/chart.png">
-        </div>
-      </section>
+      <div class="section__chart">
+        <h2 class="chart__header">Earnings chart</h2>
+        <img src="images/chart.png">
+      </div>
+    </section>
 
-      <section class="section links">
-        <h2 class="section__header">Links</h2>
-        <div class="section__box section__box--without-border">
-          <button class="button-add">+ add new</button>
-        </div>
-        <div class="section__table">
-          <table class="links-table">
-            <tbody>
-              <tr class="links-table__row">
-                <td class="links-table__link-name">Home page</td>
-                <td class="links-table__link-address"><a href="http://www.homepage.com">http://www.homepage.com</a></td>
-                <td class="links-table__icons"><i class="icon-links"></i><i class="icon-trash"></i></td>
-              </tr>
-              <tr class="links-table__row">
-                <td class="links-table__link-name">Currently offer</td>
-                <td class="links-table__link-address"><a href="http://www.currently.com">http://www.currently.com</a>
-                </td>
-                <td class="links-table__icons"><i class="icon-links"></i><i class="icon-trash"></i></td>
-              </tr>
-              <tr class="links-table__row">
-                <td class="links-table__link-name">Blurpix</td>
-                <td class="links-table__link-address"><a href="http://www.blurpix.com">http://www.blurpix.com</a></td>
-                <td class="links-table__icons"><i class="icon-links"></i><i class="icon-trash"></i></td>
-              </tr>
-              <tr class="links-table__row">
-                <td class="links-table__link-name">Your Site</td>
-                <td class="links-table__link-address"><a href="http://www.yoursite.com">http://www.yoursite.com</a></td>
-                <td class="links-table__icons"><i class="icon-links"></i><i class="icon-trash"></i></td>
-              </tr>
-              <tr class="links-table__row">
-                <td class="links-table__link-name">Google</td>
-                <td class="links-table__link-address"><a href="http://www.google.com">http://www.google.com</a></td>
-                <td class="links-table__icons"><i class="icon-links"></i><i class="icon-trash"></i></td>
-              </tr>
-              <tr class="links-table__row">
-                <td class="links-table__link-name">Facebook</td>
-                <td class="links-table__link-address"><a href="http://www.facebook.com">http://www.facebook.com</a></td>
-                <td class="links-table__icons"><i class="icon-links"></i><i class="icon-trash"></i></td>
-              </tr>
-              <tr class="links-table__row">
-                <td class="links-table__link-name">Dashboard</td>
-                <td class="links-table__link-address"><a href="http://www.dashboard.com">http://www.dashboard.com</a>
-                </td>
-                <td class="links-table__icons"><i class="icon-links"></i><i class="icon-trash"></i></td>
-              </tr>
-              <tr class="links-table__row">
-                <td class="links-table__link-name">Blurax</td>
-                <td class="links-table__link-address"><a href="http://www.blurax.com">http://www.blurax.com</a></td>
-                <td class="links-table__icons"><i class="icon-links"></i><i class="icon-trash"></i></td>
-              </tr>
-              <tr class="links-table__row">
-                <td class="links-table__link-name">Piece of Wine</td>
-                <td class="links-table__link-address"><a
-                    href="http://www.pieceofwine.com">http://www.pieceofwine.com</a></td>
-                <td class="links-table__icons"><i class="icon-links"></i><i class="icon-trash"></i></td>
-              </tr>
-              <tr class="links-table__row links-table__row--last">
-                <td class="links-table__link-name">Twitter</td>
-                <td class="links-table__link-address"><a href="http://www.twitter.com">http://www.twitter.com</a></td>
-                <td class="links-table__icons"><i class="icon-links"></i><i class="icon-trash"></i></td>
-              </tr>
-            </tbody>
-
-          </table>
-        </div>
-
-
-        <div class="section__box section__box--without-border">
-          <button class="button-add">+ add new</button>
-        </div>
-
-
-      </section>
-    </main>
-
-  </div>
-
+    <section class="section links">
+      <h2 class="section__header">Links</h2>
+      <div class="section__box section__box--without-border">
+        <button class="button-add">+ add new</button>
+      </div>
+      <div class="section__table">
+        <table class="links-table">
+          <tbody>
+            <tr class="links-table__row">
+              <td class="links-table__link-name">Home page</td>
+              <td class="links-table__link-address"><a href="http://www.homepage.com">http://www.homepage.com</a></td>
+              <td class="links-table__icons"><i class="icon-links"></i><i class="icon-trash"></i></td>
+            </tr>
+            <tr class="links-table__row">
+              <td class="links-table__link-name">Currently offer</td>
+              <td class="links-table__link-address"><a href="http://www.currently.com">http://www.currently.com</a>
+              </td>
+              <td class="links-table__icons"><i class="icon-links"></i><i class="icon-trash"></i></td>
+            </tr>
+            <tr class="links-table__row">
+              <td class="links-table__link-name">Blurpix</td>
+              <td class="links-table__link-address"><a href="http://www.blurpix.com">http://www.blurpix.com</a></td>
+              <td class="links-table__icons"><i class="icon-links"></i><i class="icon-trash"></i></td>
+            </tr>
+            <tr class="links-table__row">
+              <td class="links-table__link-name">Your Site</td>
+              <td class="links-table__link-address"><a href="http://www.yoursite.com">http://www.yoursite.com</a></td>
+              <td class="links-table__icons"><i class="icon-links"></i><i class="icon-trash"></i></td>
+            </tr>
+            <tr class="links-table__row">
+              <td class="links-table__link-name">Google</td>
+              <td class="links-table__link-address"><a href="http://www.google.com">http://www.google.com</a></td>
+              <td class="links-table__icons"><i class="icon-links"></i><i class="icon-trash"></i></td>
+            </tr>
+            <tr class="links-table__row">
+              <td class="links-table__link-name">Facebook</td>
+              <td class="links-table__link-address"><a href="http://www.facebook.com">http://www.facebook.com</a></td>
+              <td class="links-table__icons"><i class="icon-links"></i><i class="icon-trash"></i></td>
+            </tr>
+            <tr class="links-table__row">
+              <td class="links-table__link-name">Dashboard</td>
+              <td class="links-table__link-address"><a href="http://www.dashboard.com">http://www.dashboard.com</a>
+              </td>
+              <td class="links-table__icons"><i class="icon-links"></i><i class="icon-trash"></i></td>
+            </tr>
+            <tr class="links-table__row">
+              <td class="links-table__link-name">Blurax</td>
+              <td class="links-table__link-address"><a href="http://www.blurax.com">http://www.blurax.com</a></td>
+              <td class="links-table__icons"><i class="icon-links"></i><i class="icon-trash"></i></td>
+            </tr>
+            <tr class="links-table__row">
+              <td class="links-table__link-name">Piece of Wine</td>
+              <td class="links-table__link-address"><a href="http://www.pieceofwine.com">http://www.pieceofwine.com</a>
+              </td>
+              <td class="links-table__icons"><i class="icon-links"></i><i class="icon-trash"></i></td>
+            </tr>
+            <tr class="links-table__row links-table__row--last">
+              <td class="links-table__link-name">Twitter</td>
+              <td class="links-table__link-address"><a href="http://www.twitter.com">http://www.twitter.com</a></td>
+              <td class="links-table__icons"><i class="icon-links"></i><i class="icon-trash"></i></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="section__box section__box--without-border">
+        <button class="button-add">+ add new</button>
+      </div>
+    </section>
+  </main>
   <script src="js/script.js" type="module"></script>
 </body>
 

@@ -3,13 +3,13 @@
   top: 0;
   right: 0;
   height: 60px;
-  width: calc(100% - 190px);
+  width: 100%;
   background: $white;
   border-bottom: $border;
 
   &__list {
+    height: 60px;
     list-style-type: none;
-    height: 100%;
     margin: 0;
     padding: 0;
 

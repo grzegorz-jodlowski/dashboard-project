@@ -1,8 +1,9 @@
 .sidebar {
   position: fixed;
   top: 0;
-  left: 0;
   width: 190px;
+  right: auto;
+  height: 100%;
   background: $sidebar-color;
   z-index: 5;
   transition: $transition;
@@ -115,8 +116,7 @@
   }
 }
 
-.sidebar__narrow {
-  transition: $transition;
+.sidebar--narrow {
   width: 60px;
 
   .sidebar-top__logo,
