@@ -29,7 +29,7 @@
   }
 
   &__chart {
-    max-width: 660px;
+    max-width: 700px;
     margin: 20px auto;
     text-align: center;
   }
@@ -92,6 +92,7 @@
 .chart {
   &__header {
     padding-top: 30px;
+    margin-left: 15px;
     text-align: left;
     font-size: $header-font-size;
     font-weight: $font-semibold;
@@ -101,11 +102,6 @@
 
 .scroll-wrapper {
   display: block;
-  width: 100%;
+  width: auto;
   overflow-x: auto;
-}
-
-.scroll-wrapper table {
-  width: 100%;
-  max-width: 100%;
 }

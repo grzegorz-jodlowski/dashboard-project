@@ -19,7 +19,9 @@ a {
   margin: 75px 15px 15px 205px;
 }
 
-.main-content--wide {
-  transition: $transition;
-  margin: 75px 15px 15px 75px;
+@media (max-width: 768px) {
+  .main-content--wide {
+    transition: $transition;
+    margin: 75px 15px 15px 75px;
+  }
 }

@@ -1,12 +1,23 @@
 .links-table {
   margin: 20px auto;
-  width: 60%;
+  width: 95%;
   border-collapse: collapse;
+
+  @media (min-width: 768px) {
+    width: 80%;
+  }
+  @media (min-width: 1024px) {
+    width: 60%;
+  }
 
   &__row {
     line-height: 60px;
     border-top: $border;
-    @include flex(row, nowrap, stretch, flex-start);
+    @include flex(column, wrap, center, flex-start);
+
+    @media (min-width: 570px) {
+      @include flex(row, nowrap, stretch, flex-start);
+    }
 
     &:hover {
       background-color: $gray-light;
