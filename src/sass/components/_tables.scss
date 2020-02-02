@@ -1,0 +1,44 @@
+.links-table {
+  margin: 20px auto;
+  min-width: 660px;
+  border-collapse: collapse;
+
+  &__row {
+    line-height: 60px;
+    border-top: $border;
+    border-bottom: $border;
+
+    &:hover {
+      background-color: $gray-light;
+
+      i {
+        display: inline;
+      }
+    }
+  }
+
+  &__link-name {
+    font-weight: $font-semibold;
+  }
+
+  &__link-address a {
+    color: $blue;
+
+    &:hover {
+      color: $orange;
+    }
+  }
+
+  &__icons {
+    width: 80px;
+
+    i {
+      display: none;
+      margin: 10px;
+
+      &:hover {
+        color: $orange;
+      }
+    }
+  }
+}
