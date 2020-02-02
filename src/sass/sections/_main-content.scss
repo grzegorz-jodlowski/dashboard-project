@@ -48,6 +48,10 @@
   margin: 15px;
   font-size: $paragraph-font-size;
 
+  @media (max-width: 370px) {
+    @include flex(row, wrap, center, center);
+  }
+
   &:hover {
     transition: $transition;
     color: $black;
@@ -57,11 +61,36 @@
   &__date-from {
     padding-right: 50px;
     border-right: $border;
+
+    @media (max-width: 500px) {
+      padding-right: 15px;
+    }
+    @media (max-width: 370px) {
+      padding: 10px;
+      border-right: none;
+      border-bottom: $border;
+    }
   }
 
   &__date-to {
     padding-right: 50px;
     padding-left: 10px;
+
+    @media (max-width: 500px) {
+      padding-right: 15px;
+    }
+    @media (max-width: 425px) {
+      padding-right: 0;
+    }
+    @media (max-width: 370px) {
+      padding: 10px;
+    }
+  }
+
+  &__date-icon {
+    @media (max-width: 425px) {
+      display: none;
+    }
   }
 }
 
