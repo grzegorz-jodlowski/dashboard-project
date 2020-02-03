@@ -4,6 +4,7 @@
   font-size: $header-font-size;
   box-shadow: 0 0 1em $gray;
   padding-bottom: 25px;
+  display: none;
 
   &__header {
     font-size: $header-font-size;
@@ -134,4 +135,8 @@
   display: block;
   width: auto;
   overflow-x: auto;
+}
+
+.show {
+  display: block;
 }

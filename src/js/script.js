@@ -9,13 +9,20 @@ document.querySelector('.sidebar-top__hamburger').addEventListener('click', func
 });
 
 const links = document.querySelectorAll('.sidebar-menu__link');
+const sections = document.querySelectorAll('.section');
+
 
 for (let link of links) {
-  link.addEventListener('click', function () {
+  link.addEventListener('click', function (e) {
+    e.preventDefault();
     for (let link of links) {
       link.classList.remove('active-link');
     }
     link.classList.toggle('active-link');
+    for (const section of sections) {
+      section.classList.remove('show');
+    }
+    document.querySelector(`.${link.getAttribute('href').replace('#', '')}`).classList.add('show');
   });
 }
 
