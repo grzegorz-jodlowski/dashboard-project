@@ -22,7 +22,12 @@ for (let link of links) {
     for (const section of sections) {
       section.classList.remove('show');
     }
-    document.querySelector(`.${link.getAttribute('href').replace('#', '')}`).classList.add('show');
+    if (link.getAttribute('href') == '#general') {
+      document.querySelector(`.${link.getAttribute('href').replace('#', '')}`).classList.add('show');
+      document.querySelector('.links').classList.add('show');
+    } else {
+      document.querySelector(`.${link.getAttribute('href').replace('#', '')}`).classList.add('show');
+    }
   });
 }
 
