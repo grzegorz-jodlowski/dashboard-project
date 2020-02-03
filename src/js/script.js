@@ -8,6 +8,21 @@ document.querySelector('.sidebar-top__hamburger').addEventListener('click', func
   toggleMenu();
 });
 
+const links = document.querySelectorAll('.sidebar-menu__link');
+
+for (let link of links) {
+  link.addEventListener('click', function () {
+    for (let link of links) {
+      link.classList.remove('active-link');
+    }
+    link.classList.toggle('active-link');
+  });
+}
+
+
+
+// Chart plugin settings
+
 var ctx = document.getElementById('myChart').getContext('2d');
 
 var chart = new Chart(ctx, {

@@ -120,6 +120,21 @@
   }
 }
 
+.active-link {
+  background: $black-light;
+  color: $gray-light;
+
+  &:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 40px;
+    background: $orange;
+  }
+}
+
 @media (max-width: 768px) {
   .sidebar--narrow {
     width: 60px;
