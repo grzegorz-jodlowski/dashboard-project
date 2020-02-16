@@ -15,7 +15,7 @@
 - [Technologies used](#technologies)
 - [What I learned?](#what)
 - [Interesting code snippet](#interesting)
-- [Heroku](#heroku)
+- [GitHub Pages](#gitHub)
 
 </br>
 
@@ -53,7 +53,7 @@
 
 
 
-## <a name="heroku"></a>GitHub Pages
+## <a name="gitHub"></a>GitHub Pages
 <a href="https://grzegorz-jodlowski.github.io/dashboard-project/">Dashoard project</a>
 
 
