@@ -15,6 +15,7 @@
 - [Technologies used](#technologies)
 - [What I learned?](#what)
 - [Interesting code snippet](#interesting)
+- [Installation](#install)
 - [GitHub Pages](#gitHub)
 
 </br>
@@ -188,7 +189,24 @@ var chart = new Chart(ctx, {
 
 </br>
 
+## <a name="install"></a>Installation
 
+- use the package manager [npm](https://www.npmjs.com/get-npm) to install dependencies:
+
+```bash
+npm install
+
+or
+
+npm i
+```
+- run watch mode to start the server, constantly refreshing and more:
+
+```bash
+npm run watch
+```
+
+</br>
 
 ## <a name="gitHub"></a>GitHub Pages
 <a href="https://grzegorz-jodlowski.github.io/dashboard-project/">Dashoard project</a>
