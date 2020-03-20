@@ -212,3 +212,7 @@ npm run watch
 <a href="https://grzegorz-jodlowski.github.io/dashboard-project/">Dashoard project</a>
 
 
+</br>
+</br>
+
+  *completely self-made project implemented as part of the 9-month [Web Developer Plus](https://kodilla.com/pl/bootcamp/webdeveloper/?type=wdp&editionId=309) course organized by [Kodilla](https://drive.google.com/file/d/1AZGDMtjhsHbrtXhRSIlRKKc3RCxQk6YY/view?usp=sharing)
