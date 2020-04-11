@@ -16,7 +16,8 @@
 - [What I learned?](#what)
 - [Interesting code snippet](#interesting)
 - [Installation](#install)
-- [GitHub Pages](#gitHub)
+- [NPM scripts](#scr)
+- [Website (on GitHub Pages)](#site)
 
 </br>
 
@@ -208,7 +209,15 @@ npm run watch
 
 </br>
 
-## <a name="gitHub"></a>GitHub Pages
+## <a name="scr"></a>NPM scripts
+
+There are 3 main scripts to speed up work:
+
+- `build`: builds a project,
+- `watch`: observes changes and starts working preview,
+- `test`: starting the tests of html and CSS structure,
+
+## <a name="site"></a>Website (on GitHub Pages)
 <a href="https://grzegorz-jodlowski.github.io/dashboard-project/">Dashoard project</a>
 
 
