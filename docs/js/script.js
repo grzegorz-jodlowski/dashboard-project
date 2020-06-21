@@ -11,7 +11,6 @@ document.querySelector('.sidebar-top__hamburger').addEventListener('click', func
 const links = document.querySelectorAll('.sidebar-menu__link');
 const sections = document.querySelectorAll('.section');
 
-
 for (let link of links) {
   link.addEventListener('click', function (e) {
     e.preventDefault();
@@ -31,12 +30,9 @@ for (let link of links) {
   });
 }
 
-
-
 // Chart plugin settings
 
 var ctx = document.getElementById('myChart').getContext('2d');
-
 
 // eslint-disable-next-line no-undef, no-unused-vars
 var chart = new Chart(ctx, {
